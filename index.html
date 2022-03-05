@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+    rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>StopWatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+
+        <h1>
+            <span class="gold">Stop</span>Watch</h1>
+            <div class="circle">
+                
+                <span class="time" id="display"><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span></span>
+            </div>
+            <div class="controls">
+
+                <button>
+                    <img src="play-button.png" alt="" id="playButton">
+                    <img src="pause-button.png" alt="" id="pauseButton">
+
+                </button>
+                <button>
+                    <img src="reset-button.png" alt="" id="resetButton">
+                    <img src="hourglass.png" id="lap" style="height: 50px; width: 50px;" alt="">
+                </button>
+            </div>
+            <div id="laps">
+                <ol id="lapArea">
+                </ol>
+            </div>
+        </div>
+            <script src="script.js"></script>
+        </body>
+        </html>
